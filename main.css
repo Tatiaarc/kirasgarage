@@ -1,7 +1,28 @@
 body {
   margin: 0;
-  padding: 0;
+  padding-left: 30px;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
 }
 header h1 {
+  margin: 20px;
+  color: #15bcd5;
+  font-size: 30px;
+}
+header img {
+  height: 70px;
+  width: 370px;
+  color: #15bcd5;
+}
+.intro-test {
+  font-size: 40px;
   font-family: "Electrolize", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+.intro-test p {
+  margin: 0;
 }
