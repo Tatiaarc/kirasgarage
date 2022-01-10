@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding-left: 30px;
+  font-family: "Electrolize", sans-serif;
 }
 header {
   display: flex;
@@ -10,19 +11,41 @@ header {
 header h1 {
   margin: 20px;
   color: #15bcd5;
-  font-size: 30px;
+  font-size: 40px;
 }
 header img {
-  height: 70px;
-  width: 370px;
+  height: 50px;
+  width: 280px;
   color: #15bcd5;
 }
-.intro-test {
-  font-size: 40px;
-  font-family: "Electrolize", sans-serif;
-  width: 100vw;
-  height: 100vh;
+main .main-container {
+  display: grid;
+  grid-template-rows: 300px 1fr 50px;
 }
-.intro-test p {
-  margin: 0;
+main .intro-test {
+  font-size: 50px;
+  /* border: 1px solid red; */
+  align-self: end;
+}
+main .pixel-cat-one {
+  /* border: 1px solid red; */
+  text-align: right;
+  padding-right: 80px;
+}
+main .box-check-button {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+main .check-button {
+  background: #06b3c6;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 24px;
+  color: white;
+  font-family: "Electrolize", sans-serif;
+}
+main .pixel-cat-one img {
+  width: 200px;
+  height: 235px;
 }
